@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-commerce product page </title>
+    <link rel="stylesheet" href="C:\Users\Admin\web project\assign3\style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="product-container">
+        <div class="product-image">
+            <img src=".\mulatanimitti.jpg" alt="Product Image1">
+        </div>
+        <div class="product-details">
+            <h1>Multani mitti</h1>
+            <p class="description">This is a great product that you will love!</p>
+            <p class="price">$199.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="product-container">
+        <div class="product-image">
+            <img src=".\trimmer.jpg" alt="Product Image2">
+        </div>
+        <div class="product-details">
+            <h1>Mens Trimmer</h1>
+            <p class="description">This is a great product that you will love!</p>
+            <p class="price">$999.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="review-form">
+        <h3>Write a Review</h3>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating" required>
+                <option value="5">★★★★★</option>
+                <option value="4">★★★★☆</option>
+                <option value="3">★★★☆☆</option>
+                <option value="2">★★☆☆☆</option>
+                <option value="1">★☆☆☆☆</option>
+            </select>
+
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" rows="4" required></textarea>
+
+            <button type="submit">Submit Review</button>
+        </form>
+    </div>
+</div>
+
+    <div class="reviews">
+        <h2>Customer Reviews</h2>
+        <div class="review">
+            <h3>John Doe</h3>
+            <p class="rating">★★★★☆</p>
+            <p class="comment">Great product!</p>
+        </div>
+        <div class="review">
+            <h3>Jane Smith</h3>
+            <p class="rating">★★★★★</p>
+            <p class="comment"> Highly recommended.</p>
+        </div>
+        <!-- Add more reviews as needed -->
+        <button class="write-review">Write a Review</button>
+    </div>
+    
+    <!-- Related Products Section -->
+    <div class="related-products">
+        <h2>Related Products</h2>
+        <div class="related-product-item">
+            <img src=".\facewash.jpg" alt="Related Product 1">
+            <h3>Himalaya Facewash</h3>
+            <p class="price">$157</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="related-product-item">
+            <img src=".\beardkit.jpg" alt="Related Product 2">
+            <h3>Mens Beard kit </h3>
+            <p class="price">$299.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+    
+</body>
+</html>
